@@ -3,7 +3,8 @@
   <link rel="stylesheet" href="public/css/main.css" />
  </head>
 <div class="main container">
-
+<a href="/education/create" class="btn btn-primary"> create </a>
+       
 <section class="opleidingen">
   <div class="row">
       <h2>Educations:</2>
@@ -12,9 +13,16 @@
         <div class="col-md-12"><?= $education->start_year ?>/<?= $education->end_year ?></div>
         <div class="col-md-12"><?= $education->degree ?></div>
         <div class="col-md-12"><?= $education->college ?></div>
-    <?php endforeach ?>
+
+        <a href="/education/<?= $education->id ?>/edit" class="btn btn-primary"> Edit </a>
+       
+       
+   <?php endforeach ?>
   </div>
-</section>
+
+       
+   
+  </section>
 </div>
            
 <?php require 'views/partials/footer.view.php' ?>

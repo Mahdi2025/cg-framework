@@ -59,6 +59,37 @@ return [
             'name'       => 'delete_user',
             'created'    => date('Y-m-d H:i:s'),
             'created_by' => 1
+        ],
+        [
+                'name'       => 'show_user',
+                'created'    => date('Y-m-d H:i:s'),
+                'created_by' => 3
+        ],
+    
+        [
+                'name'       => 'create_user',
+                'created'    => date('Y-m-d H:i:s'),
+                'created_by' => 3
+        ],
+    
+        [
+                'name'       => 'read_user',
+                'created'    => date('Y-m-d H:i:s'),
+                'created_by' => 3
+        ],
+            
+        [
+                'name'       => 'update_user',
+                'created'    => date('Y-m-d H:i:s'),
+                'created_by' => 3
+        ],
+    
+        [
+                'name'       => 'delete_user',
+                'created'    => date('Y-m-d H:i:s'),
+                'created_by' => 3
         ]),
+    
     ],
+
 ];

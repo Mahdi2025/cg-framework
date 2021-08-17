@@ -21,7 +21,7 @@
             </div>
         </div>
             <hr>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="create" class="btn btn-primary">create</button>
             <button type="edit" class="btn btn-primary">edit</button>
             <input type="hidden" name="f_token" value="<?= createToken() ?>">
            

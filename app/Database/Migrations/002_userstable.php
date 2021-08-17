@@ -48,6 +48,19 @@ return [
         ],
         
         [
+            'first_name' => 'Mahdi',
+            'last_name'  => 'ameur',
+            'email'      => 'mahdi.benameur1@gmail.com',
+            'password'   => password_hash('Gorilla1!', PASSWORD_DEFAULT),
+            'role'       => 3,
+            'country'    => 156,
+            'city'       => 'Groningen',
+            'birthday'   => '1981-05-17',
+            'created'    => date('Y-m-d H:i:s'),
+            'created_by' => 1,
+        ],
+        
+        [
             'first_name' => 'Pietje',
             'last_name'  => 'Puk',
             'email'      => 'ppuk@codegorilla.nl',

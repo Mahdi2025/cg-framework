@@ -19,7 +19,7 @@ header {
     height: 100px;
     background-color: rgb(158 210 157);
     width: 100%;
-    color: rgb(167, 36, 36);
+    color: rgb(167, 73, 36);
     z-index: 1;
     border-bottom: 1px solid #f2f2f2;
 }
@@ -190,10 +190,7 @@ input[type="text"], input[type="email"] {
     width: 100%;
 }
 
- {
-    background-color: green;
-  }
-  
+
   div {
     background-color: lightblue;
   }
@@ -216,3 +213,51 @@ input[type="text"], input[type="email"] {
     color: hotpink;
   }
   
+
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.one {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: green;
+  }
+  
+  p.three {
+    border-style: dotted;
+    border-color: blue;
+  }
+  
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }

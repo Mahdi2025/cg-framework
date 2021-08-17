@@ -43,7 +43,7 @@ class educationController extends Controller
     public function store()
     {
         
-        // dd($_POST);
+        
         $education = $_POST;
         $education['created_by'] = Helper::getUserIdFromSession();
         $education['created'] = date('Y-m-d');
@@ -51,6 +51,8 @@ class educationController extends Controller
         EducationModel::load()->store($education);
 
         view::redirect('education');
+
+        
 
     }
 
