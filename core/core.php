@@ -24,6 +24,7 @@ function dd()
 }
 
 
+
 /**
  * Create an encrypted token and set the token var in the SESSION
  */
