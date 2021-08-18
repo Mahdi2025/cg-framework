@@ -15,7 +15,7 @@
                 <div class="col-md-12"><?= $education->college ?></div>
 
 
-        <a href="/education/<?= $education->id ?>/submit" class="btn btn-primary"> submit </a>
+        <a href="/education/create" class="btn btn-primary"> create </a>
         <a href="/education/<?= $education->id ?>/edit" class="btn btn-primary"> Edit </a>
    
             <?php endforeach ?>
@@ -32,7 +32,7 @@
             <div class="col-12"><?= $job->start_year ?>/<?= $job->end_year ?></div>
             <div class="col-12"><?= $job->company_name ?></div>
 
-            <a href="/job/<?= $job->id ?>/submit" class="btn btn-primary"> submit </a>
+            <a href="/job/create" class="btn btn-primary"> create </a>
             <a href="/job/<?= $job->id ?>/edit" class="btn btn-primary"> Edit </a>
 
         <?php endforeach ?>
@@ -53,7 +53,7 @@
                 
                     <div class="col-12"><?= $skills->skill ?></div>
                     
-                <a href="/skill/<?= $skill->id ?>/create" class="btn btn-primary"> create </a>
+                <a href="/skill/create" class="btn btn-primary"> create </a>
                 <a href="/skill/<?= $skill->id ?>/edit" class="btn btn-primary"> Edit </a>
             <?php endforeach ?>
         </div>
@@ -68,7 +68,7 @@
                 <div class="col-12"><?= $hobbie->hobbie ?></div>
 
 
-        <a href="/hobbie/<?= $hobbie->id ?>/submit" class="btn btn-primary"> submit </a>
+        <a href="/hobbie/create/" class="btn btn-primary"> create </a>
         <a href="/hobbie/<?= $hobbie->id ?>/edit" class="btn btn-primary"> Edit </a>
                 
             <?php endforeach ?>
